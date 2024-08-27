@@ -1,5 +1,5 @@
 ## Hello From Glitched Studios Multi Development Team
-Join Our Discord ----=>
+Join Our Discord →
 [Discord](https://discord.gg/glitched-studios)
 ### Tool Status
 - **In Development**
