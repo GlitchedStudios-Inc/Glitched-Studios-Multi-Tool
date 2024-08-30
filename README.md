@@ -5,4 +5,4 @@ Join Our Discord →
 - **In Development**
 
 ### Leaks
-![](https://github.com/GlitchedStudios-Inc/Glitched-Studios-Multi-Tool/blob/main/readmestuff/leaks.png?raw=true)
+![](https://github.com/GlitchedStudios-Inc/Glitched-Studios-Multi-Tool/blob/main/readmestuff/leaksv0.1.png?raw=true)
