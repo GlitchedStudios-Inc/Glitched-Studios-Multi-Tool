@@ -12,7 +12,6 @@ def extract_strings(path):
             data = obj.read()
             tree = data.read_typetree()
 
-            # Extract all strings from GameObject
             for key, value in tree.items():
                 if isinstance(value, str):
                     strings.append(value)
@@ -29,7 +28,6 @@ def extract_strings(path):
             data = obj.read()
             tree = data.read_typetree()
 
-            # Extract script contents
             for key, value in tree.items():
                 if key.endswith("script"):
                     script_contents = value.read().decode("utf-8")
@@ -72,12 +70,10 @@ def main(apk_path):
         playfab_strings, photon_strings, other_strings = extract_strings(game_info_path)
         game_name = os.path.basename(apk_path)[:-4]
 
-        # Create output directory if it doesn't exist
         output_dir = f"output/apkstuff/stringextrater/{game_name}"
         if not os.path.exists(output_dir):
             os.makedirs(output_dir)
 
-        # Log strings to file
         with open(f"{output_dir}/playfab.txt", "w") as f:
             for string in playfab_strings:
                 f.write(string + "\n")
