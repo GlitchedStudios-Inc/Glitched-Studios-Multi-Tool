@@ -2,7 +2,7 @@
 Join Our Discord →
 [Discord](https://discord.gg/glitched-studios)
 ### Tool Status
-- **In Development**
+- **Released**
 
 ### Leaks
-![](https://github.com/GlitchedStudios-Inc/Glitched-Studios-Multi-Tool/blob/main/readmestuff/leaksv0.1.png?raw=true)
+Soon
